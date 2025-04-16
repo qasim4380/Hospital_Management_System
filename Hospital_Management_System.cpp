@@ -1,8 +1,8 @@
 #include <iostream>
-#include <string>
-#include <stdbool.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include <string>//
+#include <stdbool.h>//
+#include <stdio.h>//
+#include <stdlib.h>//
 #include <fstream>
 #include <conio.h>
 #include <windows.h>
@@ -13,7 +13,9 @@ using namespace std;
 
 //LOGIN PROCESS
 //Login function
-void login() {
+
+void login() 
+{
 	string UserName,Password;
 	string UseEnter,PassEnter;
 	bool On_Off = true;
@@ -2298,11 +2300,11 @@ class MainMenu {
 			Sleep(50);
 			cout << "\t\t\t|                      DEVELOPED BY:                             |" << endl;
 			Sleep(50);
-			cout << "\t\t\t|                  Muhammad Qasim 22K-4380                       |" << endl;
+			cout << "\t\t\t|                  Aarij Ali 22K-4264                            |" << endl;
 			Sleep(50);
-			cout << "\t\t\t|                    Aarij Ali 22K-4264                          |" << endl;
+			cout << "\t\t\t|                   Muhammad Qasim 22K-4380                      |" << endl;
 			Sleep(50);
-			cout << "\t\t\t|                  Muhammad Haris 22K-4660                       |" << endl;
+			cout << "\t\t\t|                    Muhammad Haris 22K-4660                     |" << endl;
 			Sleep(50);
 			cout << "\t\t\t|________________________________________________________________|" << endl;
 			Sleep(50);
@@ -2315,21 +2317,21 @@ class MainMenu {
 				cout << "\n\t\t\t\tMAIN MENU\n";
 				cout << "\n\t\t*************************************\n";
 				cout << "\n\t\tSELECT USER:";
-				cout << "\n\n\n\t\tDOCTOR'S DATA'\t\t[1]";
-				cout << "\n\n\t\tPATIENT'S DATA'\t\t[2]";
-				cout << "\n\n\t\tBILL\t\t\t[3]";
-				cout << "\n\n\t\tSOMETHING\t\t[3]";
-				cout << "\n\n\t\tPHARMACY\t\t[4]";
-				cout << "\n\n\t\tCAFETERIA\t\t[5]";
-				cout << "\n\n\t\tBLOODBANK\t\t[6]";
-				cout << "\n\n\t\tSTAFF\t\t\t[7]";
-				cout << "\n\n\t\tEXIT\t\t\t[8]";
+				cout << "\n\n\n\t\tDOCTOR'S DATABASE\t\t[1]";
+				cout << "\n\n\t\tPATIENT'S' DATABASE'\t\t[2]";
+				cout << "\n\n\t\tGENERATE REPORT\t\t\t[3]";
+				cout << "\n\n\t\tGENERATE BILL\t\t\t[4]";
+				cout << "\n\n\t\tPHARMACY\t\t\t[5]";
+				cout << "\n\n\t\tCAFETERIA\t\t\t[6]";
+				cout << "\n\n\t\tBLOODBANK\t\t\t[7]";
+				cout << "\n\n\t\tSTAFF\t\t\t\t[8]";
+				cout << "\n\n\t\tEXIT\t\t\t\t[9]";
 				cout << "\n\n\n\t\tYour Choice: ";
 				cin >> choice;
 				switch (choice) {
 					case 1:
 						system("CLS");
-START2:
+						checkin();
 						system("CLS");
 						while (1) {
 							system("CLS");
@@ -2407,7 +2409,7 @@ START2:
 
 					case 2:
 						system("CLS");
-START4:
+						checkin();
 						while (1) {
 							system("CLS");
 							cout << "********************************************************************************\n";
@@ -2483,6 +2485,7 @@ START4:
 						}
 
 					case 3:
+						checkin();
 						system("CLS");
 						cout << "\n\n";
 						report();
@@ -2491,6 +2494,7 @@ START4:
 
 						break;
 					case 4:
+						checkin();
 						system("CLS");
 						bill();
 						cout << "\n\n";
@@ -2499,7 +2503,7 @@ START4:
 
 						break;
 
-					case 8: {
+					case 9: {
 						j = 1;
 						system("pause");
 						break;
@@ -2540,7 +2544,7 @@ START4:
 
 					}
 
-					case 6: {
+					case 7: {
 						system("CLS");
 						checkin();
 						system("CLS");
@@ -2595,7 +2599,7 @@ START4:
 						break;
 					}
 
-					case 7: {
+					case 8: {
 						system("CLS");
 						checkin();
 						system("CLS");
@@ -2652,9 +2656,9 @@ START4:
 
 
 
-					case 9: {
+					case 6: {
 						char a;
-						custmer obj;
+						customer obj;
 						do {
 							cout<<"\n\t\t\t\t\t        ___________________"<<endl;
 							cout<<"\t\t\t\t\t\t|                  |"<<endl;
@@ -2688,8 +2692,9 @@ START4:
 		}
 
 };
-int main() {
-	system("color 3");
+int main()
+{
+	system("color F");
 	MainMenu obj;
 	return 0;
 };
