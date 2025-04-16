@@ -2300,11 +2300,11 @@ class MainMenu {
 			Sleep(50);
 			cout << "\t\t\t|                      DEVELOPED BY:                             |" << endl;
 			Sleep(50);
-			cout << "\t\t\t|                  Aarij Ali 22K-4264                            |" << endl;
+			cout << "\t\t\t|                 Muhammad Qasim 22K-4380                        |" << endl;
 			Sleep(50);
-			cout << "\t\t\t|                   Muhammad Qasim 22K-4380                      |" << endl;
+			cout << "\t\t\t|                   Aarij Ali 22K-4264                           |" << endl;
 			Sleep(50);
-			cout << "\t\t\t|                    Muhammad Haris 22K-4660                     |" << endl;
+			cout << "\t\t\t|                 Muhammad Haris 22K-4660                        |" << endl;
 			Sleep(50);
 			cout << "\t\t\t|________________________________________________________________|" << endl;
 			Sleep(50);
